@@ -1,21 +1,23 @@
 
 # React Onboarding
 
-A brief description of what this project does and who it's for
+A simple React project with Tailwind to onboard developers
 
 
 ## Run Locally
 
-Clone the project
+1) Fork the project to your own GitHub account
+
+2) Clone the project
 
 ```bash
-  git clone git@github.com:thetechyhub/React-Onboarding.git React-Onboarding
+  git clone git@github.com:thetechyhub/React-Onboarding.git react_onboarding
 ```
 
 Go to the project directory
 
 ```bash
-  cd React-Onboarding
+  cd react_onboarding
 ```
 
 Install dependencies
