@@ -9,13 +9,13 @@ A brief description of what this project does and who it's for
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone git@github.com:thetechyhub/React-Onboarding.git React-Onboarding
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd React-Onboarding
 ```
 
 Install dependencies
