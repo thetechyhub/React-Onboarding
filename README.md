@@ -1,5 +1,5 @@
 
-# Project Title
+# React Onboarding
 
 A brief description of what this project does and who it's for
 
