@@ -11,8 +11,9 @@ A simple React project with Tailwind to onboard developers
 2) Clone the project
 
 ```bash
-  git clone git@github.com:thetechyhub/React-Onboarding.git react_onboarding
+  git clone [...OBTAIN LINK FROM IMAGE BELOW...] react_onboarding
 ```
+![alt text](https://github.com/thetechyhub/React-Onboarding/blob/develop/https-repo.png?raw=true)
 
 Go to the project directory
 
