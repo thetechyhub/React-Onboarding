@@ -1,13 +1,19 @@
-import React from "react";
-import "../styles/Home.css";
+import React, { useState, useEffect } from "react";
+import { Navigate, Route, Routes } from "react-router-dom";
+import Page from "./Page";
+import Comments from "./Comments";
 
 function Home() {
   return (
     <>
-      <h1 className="py-20 w-full text-center text-cyan-900 font-bold text-4xl">
-        Hello World
-      </h1>
-      <div className="box"></div>
+      <Routes>
+        <Route path="/" element={<Navigate to="/page" />} />
+        <Route path="/page">
+          <Route index element={<Page />} />
+          <Route path=":id/comments" element={<Comments />} />
+        </Route>
+        <Route path="*" element={""} />
+      </Routes>
     </>
   );
 }
