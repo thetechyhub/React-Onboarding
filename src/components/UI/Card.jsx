@@ -9,7 +9,7 @@ const Card = (props) => {
   return (
     <div className="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
       <div className="relative">
-        <div class="absolute bottom-3 right-3 rounded-full bg-indigo-900 bg-opacity-75 px-4 py-1">
+        <div className="absolute bottom-3 right-3 rounded-full bg-indigo-900 bg-opacity-75 px-4 py-1">
           <p className="text-xs text-white font-bold">News</p>
         </div>
         <img className="rounded-t-lg h-40 w-full" src={imgSrc} alt="" />
