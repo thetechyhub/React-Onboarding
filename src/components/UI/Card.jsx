@@ -7,7 +7,7 @@ const Card = (props) => {
       ? `https://studenthut.com/img/uploads/rsz-the-climate-reality-project-hb6uwq0i4mi-unsplash.1602242537448.jpg?height=550&width=800`
       : `https://www.flourishaustralia.org.au/sites/default/files/styles/body/public/2020-06/30_jun_-_reading_npp.jpg?itok=5dMm7TGD`;
   return (
-    <div className="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div className="w-60 md:w-56 xl:w-72 w-bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
       <div className="relative">
         <div className="absolute bottom-3 right-3 rounded-full bg-indigo-900 bg-opacity-75 px-4 py-1">
           <p className="text-xs text-white font-bold">News</p>

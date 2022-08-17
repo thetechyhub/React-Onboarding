@@ -26,17 +26,17 @@ function Page() {
 
   return (
     <>
-      <div className="p-10 flex flex-col justify-center items-center">
+      <div className="p-10 flex flex-col">
         <h1 className="py-5 w-full text-center text-indigo-900 font-bold text-4xl">
           Latest News
         </h1>
-        <p className="text-center sm:px-40 pb-20">
+        <p className="text-center sm:px-40 pb-20 xl:w-3/5 place-self-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
           saepe quibusdam praesentium odit nihil ipsum id! Quo quos mollitia,
           alias ipsa, accusantium explicabo nisi cumque praesentium doloremque,
           suscipit repellendus inventore.
         </p>
-        <div className="mx-auto grid grid-rows-1 gap-2 content-center md:grid-cols-4">
+        <div className="mx-auto grid grid-rows-1 gap-2 justify-items-center md:grid-cols-3">
           {data.map((element) => (
             <Card
               key={element.id}
