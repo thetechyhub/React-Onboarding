@@ -2,7 +2,7 @@ module.exports = {
   content: ["./src/**/*.{jsx, css}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    colors: {'blue-purple': '#312682', 'light-gray': '#c8c9ce', 'white': '#ffffff', 'dark-gray': 'rgb(68 64 60)' },
+    colors: {'blue-purple': '#312682', 'light-gray': '#949494', 'white': '#ffffff', 'dark-gray': 'rgb(68 64 60)' },
     fontFamily: {'roboto': 'Roboto'},
     fontSize: { '6xs': '2px',
                 '5xs': '4px',
@@ -31,7 +31,8 @@ module.exports = {
                    '6': '6px',
                    '8': '8px'},
     screens: {  
-      'xxs': '320px',
+      'xxxs': '320px',
+      'xxs': '345px',
       'xs': '425px',
       'xsm': '560px',
       'sm': '640px',

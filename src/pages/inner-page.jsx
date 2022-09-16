@@ -26,23 +26,22 @@ const InnerPage = () => {
         <div key={data.id}>
             <div className="flex justify-center">
                 <div className="flex justify-center">
-                    <div className="lg:w-3/5 md:w-3/5 sm:w-9/12 xsm:w-10/12 xs:w-10/12 xxs:w-10/12">
-                        <div className="lg:mt-20 md:mt-10 sm:mt-10 xsm:mt-10 xs:mt-10 xxs:mt-10 mb-20">
-                            <Link to="/" className="flex justify-start items-center w-3">
-                                <span className="material-symbols-outlined lg:text-2xs md:text-2xs sm:text-3xs xsm:text-3xs xs:text-3xs xxs:text-5xs text-center font-bold lg:mr-2 md:mr-2 sm:mr-2 xsm:mr-2 xs:mr-1 xxs:mr-1">arrow_back_ios</span>
-                                <p className="lg:text-sm md:text-sm sm:text-xs xsm:text-xs xs:text-xs xxs:text-3xs font-bold font-roboto hover:underline">Back</p>
+                    <div className="w-11/12 sm:w-10/12 lsm:w-9/12 md:w-4/6 lg:w-3/5 ">
+                        <div className="mt-8 xs:mt-10 xsm:mt-14 md:mt-20 mb-20 ">
+                            <Link to="/" className="flex justify-start items-center w-fit">
+                                <span className="material-symbols-outlined text-sm xsm:text-2xs md:text-3xs text-center font-bold mr-1">arrow_back_ios</span>
+                                <p className="text-base md:text-sm font-bold font-roboto hover:underline">Back</p>
                             </Link>
-                            <h1 className="text-blue-purple font-bold font-roboto lg:text-3xl md:text-2xl sm:text-2xl xsm:text-xl xs:text-base xxs:text-m lg:mt-4 md:mt-4 sm:mt-6 xsm:mt-4 xs:mt-3 xxs:mt-2 lg:mb-6 md:mb-6 sm:mb-5 xsm:mb-3 xs:mb-3 xxs:mb-2">{data.title}</h1>
-                            <div className="flex justify-center">
-                                <div className="flex justify-center lg:mb-10 md:mb-8 sm:mb-10 xsm:mb-5 xs:mb-3 xxs:mb-3">
+                            <h1 className="text-blue-purple font-bold font-roboto text-2xl md:text-3xl xs:text-3xl leading-7 xs:leading-9 mt-3 mb-5 xsm:mb-9 md:mb-14 sm:mt-3 md:mt-2">{data.title}</h1>
+                            <div className="flex-col justify-center">
+                                <div className="flex justify-center mb-4 xsm:mb-6 lsm:mb-10 md:mb-12">
                                     <img src="https://media.istockphoto.com/photos/photography-camera-lens-concept-picture-id922656500?k=20&m=922656500&s=612x612&w=0&h=buqn4KK7qm6TPy9EFtM7jSEhKVV7UdkxdLbxEL25UIQ="/>
                                 </div>
+                                <p className="text-xs xs:text-xsm font-medium leading-4 xs:leading-5 font-roboto mb-7 xsm:mb-10 md:mb-12">{data.body}</p>
                             </div>
-                            <div className="flex justify-center">
-                                <p className="lg:text-xsm md:text-xsm sm:text-xsm xsm:text-xs xs:text-2xs xxs:text-3xs font-medium font-roboto lg:mb-10 md:mb-8 sm:mb-6 xsm:mb-6 xs:mb-4 xxs:mb-3">{data.body}</p>
-                            </div>
-                            <hr />
+                            <hr className="bg-light-gray/50 text-light-gray/50 h-[1.5px]" />
                             <CommentSection />
+                            <hr />
                         </div>
                     </div>
                 </div>
